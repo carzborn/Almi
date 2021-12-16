@@ -1,11 +1,11 @@
 body {
 font-family: sofia-pro,sans-serif;
-font-weight: 400;
 font-style: normal;
 }
 
 .header {
     background-color: lightgray;
+height: 200px;
 }
 
 .header img{
@@ -16,3 +16,57 @@ font-style: normal;
     background-color: #870AA0;
     color: white;
 }
+
+.ett{
+    background-color:#870AA0;
+    color: white;
+    width: 450px;
+    height: 450px;
+}
+
+.tva{
+    background-color: #FA1996;
+    width: 450px;
+    height: 450px;
+}
+
+.tre{
+    background-color: #00F0AF;
+    width: 450px;
+    height: 450px;
+}
+
+.fyra{
+    background-color: #23C3FF;
+    color: white;
+    width: 450px;
+    height: 450px;
+}
+
+.uno{
+    width: 200px;
+    height: 200px;
+}
+
+.dos{
+    width:250px;
+    height: 250px;
+    background-color: #FFCD32;
+}
+
+.tres{
+    width: 200px;
+    height: 200px;
+}
+
+.cuatro{
+    width: 250px;
+    height: 250px;
+    background-color: #FF5F0A;
+}
+
+.customer img{
+    width: 130px;
+    height: 130px;
+}
+
