@@ -14,53 +14,58 @@ font-style: normal;
 .ett{
     background-image: url("assets/jason-goodman-Oalh2MojUuk-unsplash.jpg");
     background-position: center;
-    /* color: white; */
-    width: 450px;
-    height: 450px;
+    width: 80vh;
+    height: 80vh;
 }
 
 .tva{
     background-color: #2819FF;
-    width: 450px;
-    height: 450px;
     color: white;
+    width: 80vh;
+    height: 80vh;
 }
 
 .tre{
     background-color: #2819FF;
-    width: 450px;
-    height: 450px;
     color: white;
+    width: 80vh;
+    height: 80vh;
 }
 
 .fyra{
     background-image: url("assets/joao-paulo-m-ramos-paulo-_aIFYxHW328-unsplash.jpg");
     background-position: center;
     color: white;
-    width: 450px;
-    height: 450px;
+    width: 80vh;
+    height: 80vh;
 }
 
 .uno{
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
+    background-color: #2819FF;
+    color: white;
 }
 
 .dos{
     width:250px;
     height: 250px;
-    background-color: #FFCD32;
+    background-image: url("assets/jason-goodman-Oalh2MojUuk-unsplash.jpg");
 }
 
 .tres{
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
+    background-color: #2819FF;
+    color: white;
 }
 
 .cuatro{
     width: 250px;
     height: 250px;
-    background-color: #FF5F0A;
+    background-image: url("assets/joao-paulo-m-ramos-paulo-_aIFYxHW328-unsplash.jpg");
+    background-position: center;
+    color: white;
 }
 
 .customer img{
@@ -72,8 +77,16 @@ font-style: normal;
    width: 20%;
 }
 
-.knapp{
+.chris{
     background-color: #2819FF;
+}
+
+.h2{
+    color: white;
+}
+
+.knapp{
+    background-color: #23C3FF;
     color: white;
 }
 
@@ -94,3 +107,36 @@ font-style: normal;
     background-color: #2819FF;
 }
 
+.nyhetsbrev {
+    background-color: #2819FF;
+    color: white;
+}
+
+footer{
+    background-color: #23C3FF;
+}
+
+#lista{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+}
+
+#lista a{
+    color: white;
+    text-decoration: none;
+    padding: 14px 16px;
+}
+
+#lista a:hover{
+    text-decoration: underline;
+}
+
+a{
+    color: #2B2B2B ;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #2B2B2B;
+}
