@@ -4,40 +4,38 @@ font-style: normal;
 }
 
 .header {
-    background-color: lightgray;
-height: 200px;
+    height: 200px;
 }
 
 .header img{
     width: 120px;
 }
 
-.header button {
-    background-color: #870AA0;
-    color: white;
-}
-
 .ett{
-    background-color:#870AA0;
-    color: white;
+    background-image: url("assets/jason-goodman-Oalh2MojUuk-unsplash.jpg");
+    background-position: center;
+    /* color: white; */
     width: 450px;
     height: 450px;
 }
 
 .tva{
-    background-color: #FA1996;
+    background-color: #2819FF;
     width: 450px;
     height: 450px;
+    color: white;
 }
 
 .tre{
-    background-color: #00F0AF;
+    background-color: #2819FF;
     width: 450px;
     height: 450px;
+    color: white;
 }
 
 .fyra{
-    background-color: #23C3FF;
+    background-image: url("assets/joao-paulo-m-ramos-paulo-_aIFYxHW328-unsplash.jpg");
+    background-position: center;
     color: white;
     width: 450px;
     height: 450px;
@@ -68,5 +66,31 @@ height: 200px;
 .customer img{
     width: 130px;
     height: 130px;
+}
+
+.christina{
+   width: 20%;
+}
+
+.knapp{
+    background-color: #2819FF;
+    color: white;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+
+.itt    {
+    background-color: #2819FF;
+}
+
+.tvau   {
+    background-color: #23C3FF;
+}
+
+.tri    {
+    background-color: #2819FF;
 }
 
