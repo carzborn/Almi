@@ -4,9 +4,11 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Fontawesome iconskit -->
     <script src="https://kit.fontawesome.com/9dd82a2323.js" crossorigin="anonymous"></script>
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- My on CSS -->
     <link rel="stylesheet" href="style.css">
     <!-- Sofia font family -->
     <link rel="stylesheet" href="https://use.typekit.net/ucb1gde.css">
@@ -21,8 +23,7 @@
         </div>
       </div>
 
-      <div class=" d-none container d-md-flex flex-md-row-reverse flex-wrap text-center justify-content-center mt-5">
-        <!-- <h2 class="col-12">Varför ska just Du välja Almi?</h2> -->
+      <div class=" d-none container d-lg-flex flex-lg-row-reverse flex-wrap text-center justify-content-center mt-5">
         <div class="ett col-6">
           <h2>Varför välja Almi?</h2>
           <ul>
@@ -34,11 +35,11 @@
       </div>
         <div class="tva col-6">
           <h2>Vilka är vi på Almi?</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, laboriosam soluta, hic, neque deleniti deserunt eveniet necessitatibus quae vitae asperiores quaerat quod itaque harum laudantium quasi veritatis eos maxime eum sed. Libero harum nobis quisquam impedit commodi id ab, assumenda molestias iure porro consequuntur explicabo consequatur, aperiam et animi itaque! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum accusamus autem eius vel asperiores quas, consequuntur beatae id odit blanditiis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum a earum numquam id nihil? Necessitatibus quam hic repudiandae adipisci quisquam.</p>
+          <p class="p-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, laboriosam soluta, hic, neque deleniti deserunt eveniet necessitatibus quae vitae asperiores quaerat quod itaque harum laudantium quasi veritatis eos maxime eum sed. Libero harum nobis quisquam impedit commodi id ab, assumenda molestias iure porro consequuntur explicabo consequatur, aperiam et animi itaque! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum accusamus autem eius vel asperiores quas, consequuntur beatae id odit blanditiis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum a earum numquam id nihil? Necessitatibus quam hic repudiandae adipisci quisquam.</p>
         </div>
         <div class="tre col-6">
           <h2>Hur tar du hjälp av oss?</h2>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat facilis cumque quis perspiciatis nobis rerum quas itaque unde asperiores, illum repellat vitae molestias velit delectus ratione, eveniet, quo optio neque eum accusamus nulla! Nulla itaque ducimus saepe laborum hic. Nemo nulla dolor unde libero atque quibusdam quo omnis distinctio sit deserunt iusto impedit soluta, vero molestias sequi, modi ut sed necessitatibus excepturi nam ipsam rerum officia sunt cum? Molestias incidunt vel harum odit repudiandae repellat perspiciatis consequuntur cumque unde esse?</p>
+          <p class="p-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat facilis cumque quis perspiciatis nobis rerum quas itaque unde asperiores, illum repellat vitae molestias velit delectus ratione, eveniet, quo optio neque eum accusamus nulla! Nulla itaque ducimus saepe laborum hic. Nemo nulla dolor unde libero atque quibusdam quo omnis distinctio sit deserunt iusto impedit soluta, vero molestias sequi, modi ut sed necessitatibus excepturi nam ipsam rerum officia sunt cum? Molestias incidunt vel harum odit repudiandae repellat perspiciatis consequuntur cumque unde esse?</p>
         </div>
         <div class="fyra col-6">
             <h2>Vad erbjuder vi på Almi?</h2>
@@ -108,46 +109,61 @@
 
       <hr>
 
-      <div class="mt-5 bg-light d-flex flex-wrap text-center justify-content-center col-12">
-        <h2 class="col-12">Såhär ansöker du</h2>
+      <div class="mt-5 bg-light d-flex flex-wrap text-center justify-content-center ">
+        <h2 class="col-12">Ansök om lån</h2>
 
-        <div class="col-4 text-light itt">
-          <p><p class="bold">Steg 1:</p> Välj det lån du vill ta.</p>
+        <div class="p-2 col-3 text-decoration-underline text-center text-light rounded mx-1 mx-md-4 itt">
+            <p>10 000sek</p>
+            <p>3 månaders återbetalning</p>
+            <p>500 sek amortering</p>
+            <p>5% ränta</p>
+          <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1">
         </div>
 
-        <div class="col-4 tvau">
-            <p><p class="bold">Steg 2:</p> Fyll i information om dig och ditt företag.</p>
+        <div class="col-3 p-2 text-decoration-underline rounded text-light mx-1 mx-md-4 tvau">
+            <p>25 000sek</p>
+            <p>6 månaders återbetalning</p>
+            <p>500 sek amortering</p>
+            <p>5% ränta</p>
+          <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
         </div>
 
-        <div class="col-4 text-light tri">
-          <p><p class="bold">Steg 3:</p> Vi kontaktar dig och kommer överns om ett datum för möte.</p>
-        </div>
-          <button class="btn knapp col-6 col-md-2  mt-3">Ansök nu!</button>
+        <div class="col-3 p-2 text-decoration-underline rounded text-light mx-1 mx-md-4 tri">
+            <p>50 000sek</p>
+            <p>12 månaders återbetalning</p>
+            <p>500 sek amortering</p>
+            <p>5% ränta</p>
+            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3" >
+        </div> 
+        <button class="btn align-self-center knapp btn-sm mt-2">Ansök nu!</button>
       </div>
 
       <div class=" p-2 mt-5 nyhetsbrev d-flex flex-wrap justify-content-center text-center">
         <h2 class="col-12">Prenumerera på vårat vårat nyhetsbrev!</h2>
         <form class="d-flex justify-content-center">
           <div class="m-3">
-            <input type="email" class="form-control col-6" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <input type="email" class="form-control col-6" id="exampleInputEmail1" placeholder="Din E-postadress" aria-describedby="emailHelp">
           </div>
           <button class="btn col-4 btn-info text-white">Prenumerera</button>
         </form>
       </div>
 
-      <footer class="p-5 text-center">
-        <div class="">
-          <ul id="lista">
-            <li><a href="#">Ofta stälda frågor ></a></li>
-            <li><a href="#">Kontakta oss ></a></li>
-            <li><a href="#">Våra rådgivare ></a></li>
-          </ul>
-        </div>
-        <div mt-2>
-          <a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin fa-3x"></i></a>
-          <a href="https://www.facebook.com/almiforetagspartner/" target="_blank"><i class="fab fa-facebook-square fa-3x"></i></a>
-          <a href="https://www.youtube.com/user/almiforetagspartner1" target="_blank"><i class="fab fa-youtube-square fa-3x"></i></a>
-        </div>
+      <footer class="p-5 text-center d-flex justify-content-center align-items-center">
+        <div class="col-6">
+          <div>
+            <ul id="lista">
+              <li><a href="#">Ofta stälda frågor ></a></li>
+              <li><a href="#">Kontakta oss ></a></li>
+              <li><a href="#">Våra rådgivare ></a></li>
+            </ul>
+          </div>
+          <div mt-2>
+            <a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin fa-3x"></i></a>
+            <a href="https://www.facebook.com/almiforetagspartner/" target="_blank"><i class="fab fa-facebook-square fa-3x"></i></a>
+            <a href="https://www.youtube.com/user/almiforetagspartner1" target="_blank"><i class="fab     fa-youtube-square fa-3x"></i></a>
+          </div>
+      </div>
+        <img src="assets/Almi_Logo_vit_RGBsne.svg" class="logo-vit col-6" alt="">
       </footer>
 
 

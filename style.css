@@ -97,14 +97,27 @@ font-style: normal;
 
 .itt    {
     background-color: #2819FF;
+
+}
+
+.itt ul {
+    list-style-type: none;
 }
 
 .tvau   {
-    background-color: #23C3FF;
+    background-color: #2819FF;
+}
+
+.tvau ul{
+    list-style-type: none;
 }
 
 .tri    {
     background-color: #2819FF;
+}
+
+.tri ul   {
+    list-style-type: none;
 }
 
 .nyhetsbrev {
@@ -114,6 +127,13 @@ font-style: normal;
 
 footer{
     background-color: #23C3FF;
+}
+
+.logo-vit{
+    width: 5%;
+    height:auto;
+    position:absolute;
+    right: 0;
 }
 
 #lista{
